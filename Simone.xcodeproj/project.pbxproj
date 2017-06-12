@@ -97,12 +97,9 @@
 		9BE461561EEF09F200E5CADB /* Simone */ = {
 			isa = PBXGroup;
 			children = (
-				9BE461571EEF09F200E5CADB /* AppDelegate.swift */,
+				9BE461851EEF0C5D00E5CADB /* Support */,
 				9BE461591EEF09F300E5CADB /* ViewController.swift */,
 				9BE4615B1EEF09F300E5CADB /* Main.storyboard */,
-				9BE4615E1EEF09F300E5CADB /* Assets.xcassets */,
-				9BE461601EEF09F300E5CADB /* LaunchScreen.storyboard */,
-				9BE461631EEF09F300E5CADB /* Info.plist */,
 			);
 			path = Simone;
 			sourceTree = "<group>";
@@ -123,6 +120,17 @@
 				9BE461791EEF09F500E5CADB /* Info.plist */,
 			);
 			path = SimoneUITests;
+			sourceTree = "<group>";
+		};
+		9BE461851EEF0C5D00E5CADB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9BE461571EEF09F200E5CADB /* AppDelegate.swift */,
+				9BE4615E1EEF09F300E5CADB /* Assets.xcassets */,
+				9BE461601EEF09F300E5CADB /* LaunchScreen.storyboard */,
+				9BE461631EEF09F300E5CADB /* Info.plist */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
