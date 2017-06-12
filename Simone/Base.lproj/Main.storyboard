@@ -189,7 +189,23 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="300" id="E72-aL-8Of"/>
                                             <constraint firstAttribute="width" secondItem="5ud-wQ-QUi" secondAttribute="height" multiplier="1:1" id="G9j-XS-AMD"/>
+                                            <constraint firstAttribute="width" constant="270" id="i8R-8N-Gt2"/>
+                                            <constraint firstAttribute="width" secondItem="5ud-wQ-QUi" secondAttribute="height" multiplier="1:1" id="xFR-bt-mfH"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="i8R-8N-Gt2"/>
+                                                <exclude reference="xFR-bt-mfH"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact">
+                                            <mask key="constraints">
+                                                <exclude reference="E72-aL-8Of"/>
+                                                <exclude reference="G9j-XS-AMD"/>
+                                                <include reference="i8R-8N-Gt2"/>
+                                                <include reference="xFR-bt-mfH"/>
+                                            </mask>
+                                        </variation>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -197,10 +213,30 @@
                                     <constraint firstAttribute="trailing" secondItem="kyI-0w-Tf5" secondAttribute="trailing" id="2XE-os-pOq"/>
                                     <constraint firstItem="kyI-0w-Tf5" firstAttribute="top" secondItem="OnF-XB-Z9p" secondAttribute="top" id="Ar0-WC-bZq"/>
                                     <constraint firstItem="5ud-wQ-QUi" firstAttribute="centerY" secondItem="OnF-XB-Z9p" secondAttribute="centerY" id="PHH-pZ-2OU"/>
-                                    <constraint firstAttribute="bottom" secondItem="kyI-0w-Tf5" secondAttribute="bottom" constant="585" id="Ray-Lz-41k"/>
+                                    <constraint firstAttribute="bottom" secondItem="kyI-0w-Tf5" secondAttribute="bottom" constant="585" id="Ray-Lz-41k">
+                                        <variation key="heightClass=compact" constant="293"/>
+                                    </constraint>
+                                    <constraint firstItem="5ud-wQ-QUi" firstAttribute="centerY" secondItem="OnF-XB-Z9p" secondAttribute="centerY" id="b8a-p8-h3H">
+                                        <variation key="heightClass=compact" constant="37.5"/>
+                                    </constraint>
                                     <constraint firstItem="kyI-0w-Tf5" firstAttribute="leading" secondItem="OnF-XB-Z9p" secondAttribute="leading" id="f05-yb-2bx"/>
+                                    <constraint firstItem="5ud-wQ-QUi" firstAttribute="centerX" secondItem="OnF-XB-Z9p" secondAttribute="centerX" id="j0C-SX-KCS"/>
                                     <constraint firstItem="5ud-wQ-QUi" firstAttribute="centerX" secondItem="OnF-XB-Z9p" secondAttribute="centerX" id="jtr-n0-iEf"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="b8a-p8-h3H"/>
+                                        <exclude reference="j0C-SX-KCS"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="PHH-pZ-2OU"/>
+                                        <include reference="b8a-p8-h3H"/>
+                                        <include reference="j0C-SX-KCS"/>
+                                        <exclude reference="jtr-n0-iEf"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
