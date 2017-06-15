@@ -55,7 +55,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="a0p-YE-4Xd">
-                                <rect key="frame" x="85.5" y="281.5" width="204" height="104"/>
+                                <rect key="frame" x="85.5" y="282" width="204" height="104"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kE-MV-ySg">
                                         <rect key="frame" x="0.0" y="0.0" width="204" height="46"/>
@@ -116,7 +116,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMO-qZ-KZK">
-                                                <rect key="frame" x="180" y="28" width="15" height="27"/>
+                                                <rect key="frame" x="180.5" y="28" width="15" height="27"/>
                                                 <fontDescription key="fontDescription" name="BeatlesLightLight" family="Beatles Light" pointSize="24"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -412,6 +412,6 @@
         <image name="simone.png" width="342" height="150"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4eE-ad-6q9"/>
+        <segue reference="8Gy-mv-8c4"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B6413EF1EF310DD00592DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4615B1EEF09F300E5CADB /* Main.storyboard */; };
+		9B6413F91EF3156C00592DF2 /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6413F21EF3156C00592DF2 /* b2.png */; };
+		9B6413FA1EF3156C00592DF2 /* b8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6413F31EF3156C00592DF2 /* b8.png */; };
+		9B6413FB1EF3156C00592DF2 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6413F41EF3156C00592DF2 /* bar.png */; };
+		9B6413FC1EF3156C00592DF2 /* high.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6413F51EF3156C00592DF2 /* high.png */; };
+		9B6413FD1EF3156C00592DF2 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6413F61EF3156C00592DF2 /* new.png */; };
+		9B6413FE1EF3156C00592DF2 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6413F71EF3156C00592DF2 /* play.png */; };
+		9B6413FF1EF3156C00592DF2 /* simone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6413F81EF3156C00592DF2 /* simone.png */; };
+		9B6414011EF3158100592DF2 /* Beatles Light Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B6414001EF3158100592DF2 /* Beatles Light Light.ttf */; };
 		9BE461581EEF09F300E5CADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE461571EEF09F200E5CADB /* AppDelegate.swift */; };
 		9BE4615A1EEF09F300E5CADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE461591EEF09F300E5CADB /* ViewController.swift */; };
-		9BE4615D1EEF09F300E5CADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4615B1EEF09F300E5CADB /* Main.storyboard */; };
 		9BE4615F1EEF09F300E5CADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4615E1EEF09F300E5CADB /* Assets.xcassets */; };
 		9BE461621EEF09F300E5CADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE461601EEF09F300E5CADB /* LaunchScreen.storyboard */; };
 		9BE4616D1EEF09F500E5CADB /* SimoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4616C1EEF09F500E5CADB /* SimoneTests.swift */; };
 		9BE461781EEF09F500E5CADB /* SimoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE461771EEF09F500E5CADB /* SimoneUITests.swift */; };
-		9BE461881EEF0CCA00E5CADB /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9BE461861EEF0CCA00E5CADB /* fonts */; };
-		9BE461891EEF0CCA00E5CADB /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9BE461871EEF0CCA00E5CADB /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B6413F21EF3156C00592DF2 /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2.png; sourceTree = "<group>"; };
+		9B6413F31EF3156C00592DF2 /* b8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b8.png; sourceTree = "<group>"; };
+		9B6413F41EF3156C00592DF2 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		9B6413F51EF3156C00592DF2 /* high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = high.png; sourceTree = "<group>"; };
+		9B6413F61EF3156C00592DF2 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		9B6413F71EF3156C00592DF2 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		9B6413F81EF3156C00592DF2 /* simone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simone.png; sourceTree = "<group>"; };
+		9B6414001EF3158100592DF2 /* Beatles Light Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Beatles Light Light.ttf"; sourceTree = "<group>"; };
 		9BE461541EEF09F200E5CADB /* Simone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE461571EEF09F200E5CADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE461591EEF09F300E5CADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,8 +63,6 @@
 		9BE461731EEF09F500E5CADB /* SimoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE461771EEF09F500E5CADB /* SimoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimoneUITests.swift; sourceTree = "<group>"; };
 		9BE461791EEF09F500E5CADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BE461861EEF0CCA00E5CADB /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
-		9BE461871EEF0CCA00E5CADB /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B6413F01EF3153000592DF2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9B6414001EF3158100592DF2 /* Beatles Light Light.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		9B6413F11EF3153900592DF2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B6413F21EF3156C00592DF2 /* b2.png */,
+				9B6413F31EF3156C00592DF2 /* b8.png */,
+				9B6413F41EF3156C00592DF2 /* bar.png */,
+				9B6413F51EF3156C00592DF2 /* high.png */,
+				9B6413F61EF3156C00592DF2 /* new.png */,
+				9B6413F71EF3156C00592DF2 /* play.png */,
+				9B6413F81EF3156C00592DF2 /* simone.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		9BE4614B1EEF09F000E5CADB = {
 			isa = PBXGroup;
 			children = (
@@ -129,8 +163,8 @@
 		9BE461851EEF0C5D00E5CADB /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				9BE461861EEF0CCA00E5CADB /* fonts */,
-				9BE461871EEF0CCA00E5CADB /* images */,
+				9B6413F11EF3153900592DF2 /* Images */,
+				9B6413F01EF3153000592DF2 /* Font */,
 				9BE461571EEF09F200E5CADB /* AppDelegate.swift */,
 				9BE4615E1EEF09F300E5CADB /* Assets.xcassets */,
 				9BE461601EEF09F300E5CADB /* LaunchScreen.storyboard */,
@@ -246,11 +280,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE461891EEF0CCA00E5CADB /* images in Resources */,
+				9B6413FA1EF3156C00592DF2 /* b8.png in Resources */,
+				9B6414011EF3158100592DF2 /* Beatles Light Light.ttf in Resources */,
+				9B6413FC1EF3156C00592DF2 /* high.png in Resources */,
+				9B6413FE1EF3156C00592DF2 /* play.png in Resources */,
+				9B6413EF1EF310DD00592DF2 /* Main.storyboard in Resources */,
+				9B6413F91EF3156C00592DF2 /* b2.png in Resources */,
+				9B6413FD1EF3156C00592DF2 /* new.png in Resources */,
+				9B6413FB1EF3156C00592DF2 /* bar.png in Resources */,
 				9BE461621EEF09F300E5CADB /* LaunchScreen.storyboard in Resources */,
+				9B6413FF1EF3156C00592DF2 /* simone.png in Resources */,
 				9BE4615F1EEF09F300E5CADB /* Assets.xcassets in Resources */,
-				9BE4615D1EEF09F300E5CADB /* Main.storyboard in Resources */,
-				9BE461881EEF0CCA00E5CADB /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +561,7 @@
 				9BE4617E1EEF09F500E5CADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BE4617F1EEF09F500E5CADB /* Build configuration list for PBXNativeTarget "SimoneTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +570,7 @@
 				9BE461811EEF09F500E5CADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BE461821EEF09F500E5CADB /* Build configuration list for PBXNativeTarget "SimoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +579,7 @@
 				9BE461841EEF09F500E5CADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
