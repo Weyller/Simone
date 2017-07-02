@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FSD-5D-yKz">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FSD-5D-yKz">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -55,7 +55,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="a0p-YE-4Xd">
-                                <rect key="frame" x="85.5" y="282" width="204" height="104"/>
+                                <rect key="frame" x="85.5" y="281.5" width="204" height="104"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kE-MV-ySg">
                                         <rect key="frame" x="0.0" y="0.0" width="204" height="46"/>
@@ -116,7 +116,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMO-qZ-KZK">
-                                                <rect key="frame" x="180.5" y="28" width="15" height="27"/>
+                                                <rect key="frame" x="180.5" y="28.5" width="15" height="27"/>
                                                 <fontDescription key="fontDescription" name="BeatlesLightLight" family="Beatles Light" pointSize="24"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -128,7 +128,6 @@
                                             <constraint firstItem="wMO-qZ-KZK" firstAttribute="centerY" secondItem="kyI-0w-Tf5" secondAttribute="centerY" id="E1a-V4-5ez"/>
                                             <constraint firstItem="aka-3b-hk7" firstAttribute="top" secondItem="kyI-0w-Tf5" secondAttribute="top" id="KzU-ZD-DYz"/>
                                             <constraint firstItem="wMO-qZ-KZK" firstAttribute="centerX" secondItem="kyI-0w-Tf5" secondAttribute="centerX" id="LMr-jV-tfb"/>
-                                            <constraint firstAttribute="bottom" secondItem="aka-3b-hk7" secondAttribute="bottom" id="RqC-m6-n9w"/>
                                             <constraint firstAttribute="trailing" secondItem="aka-3b-hk7" secondAttribute="trailing" id="WWk-jA-av8"/>
                                             <constraint firstItem="aka-3b-hk7" firstAttribute="top" secondItem="kyI-0w-Tf5" secondAttribute="top" id="XNF-TG-NU8"/>
                                             <constraint firstItem="aka-3b-hk7" firstAttribute="leading" secondItem="kyI-0w-Tf5" secondAttribute="leading" id="qwN-qS-zu2"/>
@@ -145,11 +144,11 @@
                                                         <state key="normal" image="b8.png"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOw-tj-EMw">
-                                                        <rect key="frame" x="103.5" y="0.0" width="93" height="93.5"/>
+                                                        <rect key="frame" x="103.5" y="0.0" width="93.5" height="93.5"/>
                                                         <state key="normal" image="b2.png"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbw-E2-dLR">
-                                                        <rect key="frame" x="206.5" y="0.0" width="93.5" height="93.5"/>
+                                                        <rect key="frame" x="207" y="0.0" width="93" height="93.5"/>
                                                         <state key="normal" image="b8.png"/>
                                                     </button>
                                                 </subviews>
@@ -162,11 +161,11 @@
                                                         <state key="normal" image="b2.png"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbp-bd-TDV">
-                                                        <rect key="frame" x="103.5" y="0.0" width="93" height="93"/>
+                                                        <rect key="frame" x="103.5" y="0.0" width="93.5" height="93"/>
                                                         <state key="normal" image="b2.png"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJR-Dy-7ES">
-                                                        <rect key="frame" x="206.5" y="0.0" width="93.5" height="93"/>
+                                                        <rect key="frame" x="207" y="0.0" width="93" height="93"/>
                                                         <state key="normal" image="b2.png"/>
                                                     </button>
                                                 </subviews>
@@ -179,11 +178,11 @@
                                                         <state key="normal" image="b8.png"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPq-cM-fl9">
-                                                        <rect key="frame" x="103.5" y="0.0" width="93" height="93.5"/>
+                                                        <rect key="frame" x="103.5" y="0.0" width="93.5" height="93.5"/>
                                                         <state key="normal" image="b2.png"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YfE-lq-grs">
-                                                        <rect key="frame" x="206.5" y="0.0" width="93.5" height="93.5"/>
+                                                        <rect key="frame" x="207" y="0.0" width="93" height="93.5"/>
                                                         <state key="normal" image="b8.png"/>
                                                     </button>
                                                 </subviews>
@@ -292,7 +291,6 @@
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.93510464500000001" blue="0.052669721269999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="1iZ-rs-23O" secondAttribute="bottom" constant="7" id="3NU-bN-RVa"/>
                                             <constraint firstItem="QHs-LL-bKZ" firstAttribute="top" secondItem="9En-7H-TEd" secondAttribute="top" id="8Ld-83-Pd8"/>
                                             <constraint firstItem="QHs-LL-bKZ" firstAttribute="centerY" secondItem="1iZ-rs-23O" secondAttribute="centerY" id="Vkm-xs-Y6q"/>
                                             <constraint firstItem="QHs-LL-bKZ" firstAttribute="leading" secondItem="9En-7H-TEd" secondAttribute="leading" id="Y9b-KO-7jx"/>
@@ -412,6 +410,6 @@
         <image name="simone.png" width="342" height="150"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8Gy-mv-8c4"/>
+        <segue reference="4eE-ad-6q9"/>
     </inferredMetricsTieBreakers>
 </document>
