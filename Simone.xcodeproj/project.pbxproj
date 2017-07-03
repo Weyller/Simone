@@ -10,7 +10,7 @@
 		9B6413EF1EF310DD00592DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4615B1EEF09F300E5CADB /* Main.storyboard */; };
 		9B6414011EF3158100592DF2 /* Beatles Light Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B6414001EF3158100592DF2 /* Beatles Light Light.ttf */; };
 		9BE461581EEF09F300E5CADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE461571EEF09F200E5CADB /* AppDelegate.swift */; };
-		9BE4615A1EEF09F300E5CADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE461591EEF09F300E5CADB /* ViewController.swift */; };
+		9BE4615A1EEF09F300E5CADB /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE461591EEF09F300E5CADB /* StartController.swift */; };
 		9BE4615F1EEF09F300E5CADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4615E1EEF09F300E5CADB /* Assets.xcassets */; };
 		9BE461621EEF09F300E5CADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE461601EEF09F300E5CADB /* LaunchScreen.storyboard */; };
 		9BE4616D1EEF09F500E5CADB /* SimoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4616C1EEF09F500E5CADB /* SimoneTests.swift */; };
@@ -24,6 +24,10 @@
 		9BF0BD0B1F0A015E00A6E93B /* b8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BD021F0A015E00A6E93B /* b8.png */; };
 		9BF0BD0C1F0A015E00A6E93B /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BD031F0A015E00A6E93B /* bar.png */; };
 		9BF0BD0D1F0A015E00A6E93B /* simone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BD041F0A015E00A6E93B /* simone.png */; };
+		9BF0BD0F1F0A077700A6E93B /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0BD0E1F0A077700A6E93B /* GameController.swift */; };
+		9BF0BD111F0A07B100A6E93B /* WrongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0BD101F0A07B100A6E93B /* WrongController.swift */; };
+		9BF0BD131F0A084B00A6E93B /* SimoneBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0BD121F0A084B00A6E93B /* SimoneBrain.swift */; };
+		9BF0BD151F0A09E700A6E93B /* SingletonShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0BD141F0A09E700A6E93B /* SingletonShared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +51,7 @@
 		9B6414001EF3158100592DF2 /* Beatles Light Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Beatles Light Light.ttf"; sourceTree = "<group>"; };
 		9BE461541EEF09F200E5CADB /* Simone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE461571EEF09F200E5CADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BE461591EEF09F300E5CADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BE461591EEF09F300E5CADB /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
 		9BE4615C1EEF09F300E5CADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BE4615E1EEF09F300E5CADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE461611EEF09F300E5CADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,6 +71,10 @@
 		9BF0BD021F0A015E00A6E93B /* b8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b8.png; path = images/b8.png; sourceTree = "<group>"; };
 		9BF0BD031F0A015E00A6E93B /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar.png; path = images/bar.png; sourceTree = "<group>"; };
 		9BF0BD041F0A015E00A6E93B /* simone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = simone.png; path = images/simone.png; sourceTree = "<group>"; };
+		9BF0BD0E1F0A077700A6E93B /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		9BF0BD101F0A07B100A6E93B /* WrongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrongController.swift; sourceTree = "<group>"; };
+		9BF0BD121F0A084B00A6E93B /* SimoneBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimoneBrain.swift; sourceTree = "<group>"; };
+		9BF0BD141F0A09E700A6E93B /* SingletonShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonShared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +150,12 @@
 			isa = PBXGroup;
 			children = (
 				9BE461851EEF0C5D00E5CADB /* Support */,
-				9BE461591EEF09F300E5CADB /* ViewController.swift */,
+				9BE461591EEF09F300E5CADB /* StartController.swift */,
+				9BF0BD121F0A084B00A6E93B /* SimoneBrain.swift */,
+				9BF0BD141F0A09E700A6E93B /* SingletonShared.swift */,
 				9BE4615B1EEF09F300E5CADB /* Main.storyboard */,
+				9BF0BD0E1F0A077700A6E93B /* GameController.swift */,
+				9BF0BD101F0A07B100A6E93B /* WrongController.swift */,
 			);
 			path = Simone;
 			sourceTree = "<group>";
@@ -324,7 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE4615A1EEF09F300E5CADB /* ViewController.swift in Sources */,
+				9BF0BD151F0A09E700A6E93B /* SingletonShared.swift in Sources */,
+				9BF0BD131F0A084B00A6E93B /* SimoneBrain.swift in Sources */,
+				9BE4615A1EEF09F300E5CADB /* StartController.swift in Sources */,
+				9BF0BD111F0A07B100A6E93B /* WrongController.swift in Sources */,
+				9BF0BD0F1F0A077700A6E93B /* GameController.swift in Sources */,
 				9BE461581EEF09F300E5CADB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
