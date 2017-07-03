@@ -42,7 +42,14 @@ class GameController: UIViewController {
         
         addRandomButtonToArray()
         //----------------
+        // Appele la methode "startgame"avec argument "arrOfButtons"
         
+        simoneBrain.startGame(arrOfRandomButtons)
+        //--------------------------
+        
+        // Initialise "ScoreKeep" avec la propriete ordinee "scorekeeper"
+        
+        scoreKeeper.text = simoneBrain.scoreKeeper
         
     }
     //------------------------------
@@ -51,7 +58,7 @@ class GameController: UIViewController {
     {
         let randomIndex = simoneBrain.getRandomNumber(from: 0, to: arrOfButtons.count-1)
         arrOfRandomButtons.append(arrOfButtons[randomIndex])
-       
+       // S'assurer que les valeurs seront entre 0 et 8
         print(arrOfRandomButtons)
     
     
