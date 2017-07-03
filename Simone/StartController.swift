@@ -10,9 +10,17 @@ import UIKit
 
 class StartController: UIViewController {
 
+    
+    @IBOutlet weak var highScoreLabel: UILabel!
+    
+    
+    //=======================================
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //---------------
+        highScoreLabel.text = "HIGHSCORE : \(SingletonShared.SingletonSharedInstance.highScore)"
+        //------------------
+        
     }
 
     override func didReceiveMemoryWarning() {

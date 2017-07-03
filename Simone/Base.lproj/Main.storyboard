@@ -86,6 +86,9 @@
                             <constraint firstItem="IK9-Xe-tDs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rs0-Mw-ZCA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="J9A-XB-hQo" id="Te5-6D-K9N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,48 +180,75 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZa-V1-phV">
                                                         <rect key="frame" x="0.0" y="0.0" width="93.5" height="93.5"/>
                                                         <state key="normal" image="b8.png"/>
+                                                        <connections>
+                                                            <action selector="buttonManager:" destination="T2d-Gm-zji" eventType="touchUpInside" id="UzE-Uw-9wu"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOw-tj-EMw">
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOw-tj-EMw">
                                                         <rect key="frame" x="103.5" y="0.0" width="93" height="93.5"/>
                                                         <state key="normal" image="b2.png"/>
+                                                        <connections>
+                                                            <action selector="buttonManager:" destination="T2d-Gm-zji" eventType="touchUpInside" id="TLR-Nz-CLX"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbw-E2-dLR">
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbw-E2-dLR">
                                                         <rect key="frame" x="206.5" y="0.0" width="93.5" height="93.5"/>
                                                         <state key="normal" image="b8.png"/>
+                                                        <connections>
+                                                            <action selector="buttonManager:" destination="T2d-Gm-zji" eventType="touchUpInside" id="1U6-nl-UMD"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yPn-Jb-6hx">
                                                 <rect key="frame" x="0.0" y="103.5" width="300" height="93"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOY-JL-qAv">
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOY-JL-qAv">
                                                         <rect key="frame" x="0.0" y="0.0" width="93.5" height="93"/>
                                                         <state key="normal" image="b2.png"/>
+                                                        <connections>
+                                                            <action selector="buttonManager:" destination="T2d-Gm-zji" eventType="touchUpInside" id="xxK-Bh-Ngx"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbp-bd-TDV">
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbp-bd-TDV">
                                                         <rect key="frame" x="103.5" y="0.0" width="93" height="93"/>
                                                         <state key="normal" image="b2.png"/>
+                                                        <connections>
+                                                            <action selector="buttonManager:" destination="T2d-Gm-zji" eventType="touchUpInside" id="EOE-NS-HYh"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJR-Dy-7ES">
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJR-Dy-7ES">
                                                         <rect key="frame" x="206.5" y="0.0" width="93.5" height="93"/>
                                                         <state key="normal" image="b2.png"/>
+                                                        <connections>
+                                                            <action selector="buttonManager:" destination="T2d-Gm-zji" eventType="touchUpInside" id="bsu-o6-U7I"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="izO-xG-CeM">
                                                 <rect key="frame" x="0.0" y="206.5" width="300" height="93.5"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sr-yA-26y">
+                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sr-yA-26y">
                                                         <rect key="frame" x="0.0" y="0.0" width="93.5" height="93.5"/>
                                                         <state key="normal" image="b8.png"/>
+                                                        <connections>
+                                                            <action selector="buttonManager:" destination="T2d-Gm-zji" eventType="touchUpInside" id="0w4-44-Qsg"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPq-cM-fl9">
+                                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPq-cM-fl9">
                                                         <rect key="frame" x="103.5" y="0.0" width="93" height="93.5"/>
                                                         <state key="normal" image="b2.png"/>
+                                                        <connections>
+                                                            <action selector="buttonManager:" destination="T2d-Gm-zji" eventType="touchUpInside" id="day-6l-rTZ"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YfE-lq-grs">
+                                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YfE-lq-grs">
                                                         <rect key="frame" x="206.5" y="0.0" width="93.5" height="93.5"/>
                                                         <state key="normal" image="b8.png"/>
+                                                        <connections>
+                                                            <action selector="buttonManager:" destination="T2d-Gm-zji" eventType="touchUpInside" id="nrx-Y3-6vn"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -304,6 +334,16 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="but1" destination="NZa-V1-phV" id="w1W-Kq-DKQ"/>
+                        <outlet property="but2" destination="uOw-tj-EMw" id="OgS-NJ-Zg2"/>
+                        <outlet property="but3" destination="Zbw-E2-dLR" id="tQM-er-J3J"/>
+                        <outlet property="but4" destination="JOY-JL-qAv" id="JMG-eu-A3Y"/>
+                        <outlet property="but5" destination="wbp-bd-TDV" id="pOc-M5-mqh"/>
+                        <outlet property="but6" destination="uJR-Dy-7ES" id="Osd-Rb-jNK"/>
+                        <outlet property="but7" destination="7sr-yA-26y" id="VpX-xt-h2H"/>
+                        <outlet property="but8" destination="EPq-cM-fl9" id="JLD-cF-0Oc"/>
+                        <outlet property="but9" destination="YfE-lq-grs" id="Ei5-jA-cxX"/>
+                        <outlet property="scoreKeeper" destination="wMO-qZ-KZK" id="cTQ-oz-U0M"/>
                         <segue destination="FSD-5D-yKz" kind="presentation" identifier="wrong" id="W9o-Mq-SvU"/>
                     </connections>
                 </viewController>

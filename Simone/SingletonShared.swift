@@ -10,6 +10,10 @@ import Foundation
 
 class SingletonShared{
     
+    
+    var highScore = "0"
+    
+    //---------------------
     static let SingletonSharedInstance = SingletonShared()
     
     
