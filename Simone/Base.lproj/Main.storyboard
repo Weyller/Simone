@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FSD-5D-yKz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -303,6 +303,9 @@
                             <constraint firstItem="OnF-XB-Z9p" firstAttribute="top" secondItem="0t7-xS-SYz" secondAttribute="top" id="fDd-mo-zJW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="FSD-5D-yKz" kind="presentation" identifier="wrong" id="W9o-Mq-SvU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z8P-AE-jmb" sceneMemberID="firstResponder"/>
             </objects>
@@ -368,16 +371,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yQ-mt-hdN">
                                                 <rect key="frame" x="0.0" y="80.5" width="270" height="51"/>
                                                 <state key="normal" image="new.png"/>
-                                                <connections>
-                                                    <segue destination="T2d-Gm-zji" kind="presentation" identifier="wrong" id="4eE-ad-6q9"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN9-1R-g1x">
                                                 <rect key="frame" x="0.0" y="161.5" width="270" height="50.5"/>
                                                 <state key="normal" image="high.png"/>
-                                                <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="presentation" id="Nad-DI-tre"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -449,7 +446,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </objects>
-            <point key="canvasLocation" x="966" y="125"/>
+            <point key="canvasLocation" x="935" y="108"/>
         </scene>
     </scenes>
     <resources>
@@ -462,7 +459,4 @@
         <image name="ring.png" width="267" height="267"/>
         <image name="simone.png" width="512" height="225"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="4eE-ad-6q9"/>
-    </inferredMetricsTieBreakers>
 </document>
