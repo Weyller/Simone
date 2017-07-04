@@ -15,11 +15,27 @@ class SimonBrain{
     //---------------------------------
     //Variables
     
-    var colorTracker: Int!
+//    var colorTracker: Int!
+//    var userTurnToPlay: Bool!
+//    var scoreKeeperCounter: Int!
+//    var theScoreKeeper = ""
+//    var randomButtonChooser: UIButton!
+
+    var gameColors: [UIButton]
+    var colorIndex: Int!
+    var arrRandomColors: [UIButton] = []
     var userTurnToPlay: Bool!
+    var scoreTracker = ""
+    var colorToHighlight: UIButton!
+    var arrCopyOfRandomColorToCompare: [UIButton]!
     var scoreKeeperCounter: Int!
-    var theScoreKeeper = ""
-    var randomButtonChooser: UIButton!
+    //-------------------------------
+    
+    init(gameColors: [UIButton]) {
+        self.gameColors = gameColors
+    }
+    
+    
     
     //----------------------------------------
     func getRandomNumber(from f: Int, to t: Int) -> Int{
@@ -30,40 +46,34 @@ class SimonBrain{
         return Int(randomNumber)
     }
     //----------------------------------
-    func startGame(_ arrOfRandomButtons: [UIButton])
+    func startGame()
     {
-        //----------------------------
-        colorTracker = 0
+        colorIndex = 0
         
         //--------------------------
         Timer.scheduledTimer(withTimeInterval: 1, repeats: false){_ in
-            self.buttonAlphaManager(arrOfRandomButtons)
+            self.gameColorsToHighlightManager()
         }
         
-        //---------------------------
     }
     
     //------------------------------------
-    func buttonAlphaManager(_ arrOfRandomButtons: [UIButton])
+    func gameColorsToHighlightManager()
     {
         
-        if colorTracker < arrOfRandomButtons.count
+        if colorIndex < arrRandomColors.count
         {
-            //-----------------
             userTurnToPlay = false
+            scoreKeeper = ""
+            colorToHighlight = arrRandomColors[colorIndex]
+            colorToHighlight.alpha = 0.2
+            colorIndex! += 1
             scoreKeeperCounter = 0
-            theScoreKeeper = ""
-            randomButtonChooser = arrOfRandomButtons[colorTracker]
-            randomButtonChooser.alpha = 0.2
-            colorTracker! += 1
-            //-----------------
-            
             Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false){_ in
-                self.ResetAlphaForButtons(arrOfRandomButtons)
+                self.ResetAlphaForColors()
             }
             
         }
-            //-----------------
         else
         {
             userTurnToPlay = true
@@ -73,14 +83,12 @@ class SimonBrain{
     
     //------------------------------------
     
-   func ResetAlphaForButtons(_ arrOfRandomButtons: [UIButton])
+   func ResetAlphaForColors()
    {
     //--------------------
-    randomButtonChooser.alpha = 1.0
-    
-    //--------------------
+    colorToHighlight.alpha = 1.0
     Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false){_ in
-        self.buttonAlphaManager(arrOfRandomButtons)
+        self.gameColorsToHighlightManager()
 
     
    }
@@ -92,14 +100,47 @@ class SimonBrain{
     var scoreKeeper: String?
         {
         get{
-            return theScoreKeeper
+            return scoreTracker
             
         }
         set{
             
-            theScoreKeeper = newValue!
+            scoreTracker = newValue!
         }
+       }
+    //----------------------------------
+    func verification(_ aButton: UIButton)-> Bool{
         
+        if arrCopyOfRandomColorToCompare[0] == aButton{
+            arrCopyOfRandomColorToCompare.removeFirst()
+            if arrCopyOfRandomColorToCompare.count == 0
+            {
+                colorIndex = 0
+                addRandomColorsToArray()
+                Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false){_ in
+                    self.gameColorsToHighlightManager()
+            }
+        }
+            return true
+        }else {
+            return false
+        }
+ 
+}
+
+    //----------------------------------
+    func addRandomColorsToArray()
+    {
+        let randomImdex = getRandomNumber(from: 0, to: gameColors.count - 1)
+        arrRandomColors.append(gameColors[randomImdex])
+        
+        
+    }
+    
+    //----------------------------------
+    
+    func loadArrayForComparaison(){
+        arrCopyOfRandomColorToCompare = arrRandomColors
     }
 
     
