@@ -10,10 +10,20 @@ import UIKit
 
 class WrongController: UIViewController {
 
+    //--------------------
+    
+   // var simoneBrain: SimonBrain!
+    
+    @IBOutlet weak var scoreLabel: UILabel!
+   
+    
+    //--------------------
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       
+      //  scoreLabel.text = "SCORE : \(simoneBrain.scoreKeeperCounter!)"
+        
     }
 
     override func didReceiveMemoryWarning() {
